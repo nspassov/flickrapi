@@ -38,6 +38,8 @@
 {
     [super viewDidLoad];
     
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+    
     [FlickrItem fetchLatest];
 }
 

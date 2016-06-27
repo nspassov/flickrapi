@@ -101,7 +101,12 @@
     return UIEdgeInsetsMake(1, paddingLeft, 1, paddingRight);
 }
 
-
+- (void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(nonnull UICollectionViewCell *)cell forItemAtIndexPath:(nonnull NSIndexPath *)indexPath
+{
+    if([cell isKindOfClass:FlickrItemCollectionViewCell.class]) {
+        [(FlickrItemCollectionViewCell *)cell setFlickrItem:nil];
+    }
+}
 
 
 - (CGFloat)calendarSquareLength

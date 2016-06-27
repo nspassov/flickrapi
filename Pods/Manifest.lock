@@ -1,0 +1,15 @@
+PODS:
+  - FlickrKit (1.0.7)
+  - Masonry (1.0.1)
+
+DEPENDENCIES:
+  - FlickrKit
+  - Masonry
+
+SPEC CHECKSUMS:
+  FlickrKit: 907da468d679233a27d66dd88c6dcd024074b0f0
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+
+PODFILE CHECKSUM: 5377d1719503561b7947414ae1f2b3bd0c541cff
+
+COCOAPODS: 1.0.1
